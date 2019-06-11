@@ -4,11 +4,8 @@ Select multiple items using an `input` and `datalist` to suggest options.
 
 Delete items by tapping or clicking Backspace or the × icon.
 
-<!-- <video src="https://cdn.glitch.com/dda744c5-58a9-4809-897c-68396377983a%2Fmulti-input.mp4?v=1560264823071" autoplay loop>
-</video> -->
+<video src="https://cdn.glitch.com/dda744c5-58a9-4809-897c-68396377983a%2Fmulti-input.mp4?v=1560264823071" autoplay loop style="width: 200px"></video>
 
-![Screencast showing Shakespeare character names being selected via a multi-input custom element](https://cdn.glitch.com/dda744c5-58a9-4809-897c-68396377983a%2Fmulti-input.gif?v=1560266060751)
- 
 <br>
 
 ## Usage
