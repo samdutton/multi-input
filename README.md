@@ -1,5 +1,7 @@
 # &lt;multi-input&gt;
 
+<img width="340" alt="multi-input custom element showing selection of multiple Shakespeare characters" src="https://user-images.githubusercontent.com/205226/59288731-5744e400-8c6c-11e9-8b8d-4212d4504c86.png">
+
 Custom element for selecting multiple items using an `input` and `datalist` to suggest options.
 
 Delete items with Backspace or by tapping/clicking an item's × icon.
