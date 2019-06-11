@@ -57,6 +57,6 @@ The `datalist` element is [supported by all modern browsers](https://caniuse.com
 
 If your target browser doesn't support `datalist`, behaviour will fall back to the plain old `input` experience.
 
-##&nbps;
+## &nbsp;
 
 <img src="https://cdn.glitch.com/dda744c5-58a9-4809-897c-68396377983a%2Fmulti-input.gif?v=1560266060751" alt="Screencast showing Shakespeare character names being selected via a multi-input custom element" width="400">
