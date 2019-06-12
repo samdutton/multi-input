@@ -15,13 +15,13 @@ Delete items with Backspace or by tapping/clicking an item's × icon.
 
 ## Usage
 
-1. Add _multi-input.js_ to your project and link to it: 
+1. Add [multi-input.js](https://github.com/samdutton/multi-input/blob/glitch/multi-input.js) to your project and link to it: 
 
     ```html
     <script src="multi-input.js"></script>
     ```
 
-2. Wrap an `input` and a `datalist` in a `<multi-input>` (see [index.html](https://glitch.com/edit/#!/multi-input?path=index.html:14:0)): 
+2. Wrap an `input` and a `datalist` in a `<multi-input>` (see [index.html](https://github.com/samdutton/multi-input/blob/glitch/index.html#L14)): 
 
     ```html
     <multi-input>
@@ -34,7 +34,7 @@ Delete items with Backspace or by tapping/clicking an item's × icon.
     </multi-input>
     ```
  
-3. Get selected values like this (see [script.js](https://glitch.com/edit/#!/multi-input?path=script.js:4:0)):
+3. Get selected values like this (see [script.js](https://github.com/samdutton/multi-input/blob/glitch/script.js)):
 
     ```js
     const getButton = document.getElementById('get');
@@ -44,12 +44,12 @@ Delete items with Backspace or by tapping/clicking an item's × icon.
     }
     ```
 <br>
-    
+
 ## My platform doesn't support custom elements :^|
 
 Custom elements are [widely supported by modern browsers](https://caniuse.com/#search=custom%20elements).
 
-However, `<multi-input>` the  custom element wraps an `input` element that has a `datalist`, so behaviour will fall back naturally to a 'normal' `datalist` experience.
+However, `<multi-input>` simply wraps an `input` element that has a `datalist`, so behaviour will degrade gracefully to a 'normal' `datalist` experience in browsers without custom element support.
 
 <br>
     
@@ -58,7 +58,7 @@ However, `<multi-input>` the  custom element wraps an `input` element that has a
 The `datalist` element is [supported by all modern browsers](https://caniuse.com/#feat=datalist).
 
 If your target browser doesn't support `datalist`, behaviour will fall back to the plain old `input` experience.
-
+  
 <br>
 
 ## Obligatory screencast
