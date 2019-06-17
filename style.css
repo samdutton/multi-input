@@ -3,6 +3,10 @@ body {
   margin: 2em;
 }
 
+multi-input {
+  margin: 0 0 20px 0;
+}
+
 button {
   background-color: #eee;
   border: 1px solid #ddd;  
@@ -10,4 +14,3 @@ button {
   height: 30px;
   margin: 0 10px 0 0;
 }
-
