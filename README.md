@@ -45,6 +45,28 @@ Delete items with Backspace or by tapping/clicking an item's × icon.
     ```
 <br>
 
+## Can I style the components?
+
+Sure. 
+
+There are several custom properties:
+
+```
+--multi-input-border
+--multi-input-item-bg-color
+--multi-input-item-border
+--multi-input-item-font-size
+--multi-input-input-font-size
+```
+
+Style components like this: 
+
+``` css
+multi-input {
+  --multi-input-border: 2px solid red;
+}
+```
+
 ## My platform doesn't support custom elements :^|
 
 Custom elements are [widely supported by modern browsers](https://caniuse.com/#search=custom%20elements).
