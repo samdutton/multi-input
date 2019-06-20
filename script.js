@@ -9,3 +9,5 @@ getButton.onclick = () => {
     values.textContent = 'Got noone  :`^(.'; 
   }
 }
+
+document.querySelector('input').focus();
