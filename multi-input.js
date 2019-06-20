@@ -29,7 +29,6 @@ class MultiInput extends HTMLElement {
       border: var(--multi-input-border, 1px solid #ddd);
       display: block;
       overflow: hidden;
-      overflow: overlay;
       padding: 5px;
     }
     /* NB use of pointer-events to only allow events from the × icon */
@@ -54,8 +53,6 @@ class MultiInput extends HTMLElement {
     ::slotted(input) {
       border: none;
       font-size: var(--multi-input-input-font-size, 16px);
-      max-width: calc(100% - 20px);
-      min-width: calc(50% - 20px);
       outline: none;
       padding: 10px 10px 10px 5px; 
     }
@@ -76,7 +73,6 @@ class MultiInput extends HTMLElement {
     };
 
     this._allowDuplicates = this.hasAttribute('allow-duplicates');
-    // console.log(this._allowDuplicates);
   }
 
   // Called by _handleKeydown() when the value of the input is an allowed value.
@@ -141,7 +137,7 @@ class MultiInput extends HTMLElement {
     const itemToDelete = event.target.previousElementSibling;
     const value = this._input.value;
     // On Backspace, delete the div.item to the left of the input
-    if (event.key === 'Backspace' && itemToDelete) {
+    if (value ==='' && event.key === 'Backspace' && itemToDelete) {
       this._deleteItem(itemToDelete);
     // Add a div.item, but only if the current value
     // of the input is an allowed value
