@@ -1,13 +1,10 @@
 body {
-  align-items: center;
   font-family: 'Google Sans', sans-serif;
-  display: flex;
-  justify-content: center;
   margin: 40px
 }
 
 multi-input {
-  display: block;
+  display: inline-block;
   margin: 0 20px 20px 0;
 }
 
@@ -19,7 +16,17 @@ button {
   margin: 0 10px 20px 0;
 }
 
+body > div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
 label {
   display: block;
   margin: 0 20px 20px 0;
+}
+
+p {
+  text-align: center;
 }

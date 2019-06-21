@@ -7,36 +7,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/style.css"> 
+<!--   <script>
+  //  philipwalton.com/articles/the-google-analytics-setup-i-use-on-every-site-i-build
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments);
+  };
+  ga('create', 'UA-XXX', 'auto');
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview');
+  </script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script> -->
 </head>  
 
 <body>
   
-<label>Speaker name:</label>
-  
-  <multi-input>
-    <input list="speakers">
-    <datalist id="speakers">
-      <option value="Banquo"></option>
-      <option value="Bishop Stokesly of London"></option>
-      <option value="Caesar’s Second Watchman"></option>
-      <option value="Celia"></option>
-      <option value="Cleopatra"></option>
-      <option value="Dogberry"></option>
-      <option value="Falstaff"></option>
-      <option value="First Servant"></option>
-      <option value="Hamlet"></option>
-      <option value="Juliet"></option>
-      <option value="Macbeth"></option>
-    </datalist>
-  </multi-input>
-  
-  <button id="get">Get</button>
-  
+  <div>
+    <label>Speaker name:</label>
+    <multi-input>
+      <input list="speakers">
+      <datalist id="speakers">
+        <option value="Banquo"></option>
+        <option value="Bishop Stokesly of London"></option>
+        <option value="Caesar’s Second Watchman"></option>
+        <option value="Celia"></option>
+        <option value="Cleopatra"></option>
+        <option value="Dogberry"></option>
+        <option value="Falstaff"></option>
+        <option value="First Servant"></option>
+        <option value="Hamlet"></option>
+        <option value="Juliet"></option>
+        <option value="Macbeth"></option>
+      </datalist>
+    </multi-input>
+    <button id="get">Get</button>
+  </div>
+
   <p id="values"></p>
 
 </body>
 
   <script src="multi-input.js"></script>
   <script src="script.js"></script>
+
 
 </html>
