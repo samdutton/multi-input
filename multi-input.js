@@ -52,7 +52,7 @@ class MultiInput extends HTMLElement {
     }
     ::slotted(input) {
       border: none;
-      font-size: var(--multi-input-input-font-size, 16px);
+      font-size: var(--multi-input-input-font-size, 14px);
       outline: none;
       padding: 10px 10px 10px 5px; 
     }
